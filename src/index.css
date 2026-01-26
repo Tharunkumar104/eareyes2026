@@ -1,0 +1,291 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* EAREYES 2K26 Design System - Water Blue Theme */
+
+@layer base {
+  :root {
+    /* Water Blue Color Palette */
+    --background: 200 30% 98%;
+    --foreground: 200 50% 10%;
+
+    --card: 200 30% 100%;
+    --card-foreground: 200 50% 10%;
+
+    --popover: 200 30% 100%;
+    --popover-foreground: 200 50% 10%;
+
+    /* Primary - Deep Teal */
+    --primary: 192 82% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Light Aqua */
+    --secondary: 190 60% 94%;
+    --secondary-foreground: 192 82% 25%;
+
+    --muted: 200 25% 93%;
+    --muted-foreground: 200 20% 45%;
+
+    /* Accent - Vibrant Cyan */
+    --accent: 185 75% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 30% 88%;
+    --input: 200 30% 88%;
+    --ring: 192 82% 45%;
+
+    --radius: 0.75rem;
+
+    /* Custom Colors for EAREYES */
+    --aqua-50: 190 80% 97%;
+    --aqua-100: 190 75% 92%;
+    --aqua-200: 190 70% 82%;
+    --aqua-300: 190 68% 68%;
+    --aqua-400: 192 70% 52%;
+    --aqua-500: 192 82% 42%;
+    --aqua-600: 192 85% 35%;
+    --aqua-700: 192 80% 28%;
+    --aqua-800: 195 75% 22%;
+    --aqua-900: 198 70% 16%;
+
+    /* Glassmorphism */
+    --glass-bg: 200 30% 100% / 0.7;
+    --glass-border: 200 30% 100% / 0.3;
+    --glass-shadow: 200 50% 20% / 0.1;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(192 82% 42%) 0%, hsl(185 75% 45%) 50%, hsl(178 70% 50%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(200 30% 98%) 0%, hsl(190 60% 94%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(200 30% 100%) 0%, hsl(190 50% 97%) 100%);
+    --gradient-glow: radial-gradient(ellipse at center, hsl(192 82% 45% / 0.3) 0%, transparent 70%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px hsl(200 50% 20% / 0.06);
+    --shadow-md: 0 4px 20px hsl(200 50% 20% / 0.08);
+    --shadow-lg: 0 8px 40px hsl(200 50% 20% / 0.12);
+    --shadow-glow: 0 0 40px hsl(192 82% 45% / 0.25);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 200 40% 6%;
+    --foreground: 200 20% 95%;
+
+    --card: 200 35% 10%;
+    --card-foreground: 200 20% 95%;
+
+    --popover: 200 35% 10%;
+    --popover-foreground: 200 20% 95%;
+
+    /* Primary - Bright Teal for dark mode */
+    --primary: 185 75% 50%;
+    --primary-foreground: 200 40% 6%;
+
+    /* Secondary */
+    --secondary: 200 30% 15%;
+    --secondary-foreground: 185 75% 70%;
+
+    --muted: 200 30% 14%;
+    --muted-foreground: 200 20% 60%;
+
+    /* Accent - Bright Cyan */
+    --accent: 180 70% 55%;
+    --accent-foreground: 200 40% 6%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 25% 18%;
+    --input: 200 25% 18%;
+    --ring: 185 75% 50%;
+
+    /* Dark mode custom colors */
+    --aqua-50: 200 30% 12%;
+    --aqua-100: 200 30% 16%;
+    --aqua-200: 195 35% 22%;
+    --aqua-300: 192 40% 32%;
+    --aqua-400: 190 55% 42%;
+    --aqua-500: 185 70% 50%;
+    --aqua-600: 182 75% 55%;
+    --aqua-700: 180 80% 62%;
+    --aqua-800: 178 85% 72%;
+    --aqua-900: 175 90% 82%;
+
+    /* Glassmorphism Dark */
+    --glass-bg: 200 35% 12% / 0.8;
+    --glass-border: 200 30% 30% / 0.3;
+    --glass-shadow: 200 50% 5% / 0.3;
+
+    /* Gradients Dark */
+    --gradient-primary: linear-gradient(135deg, hsl(185 70% 50%) 0%, hsl(180 65% 45%) 50%, hsl(175 60% 40%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(200 40% 6%) 0%, hsl(200 35% 10%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(200 35% 12%) 0%, hsl(200 30% 8%) 100%);
+    --gradient-glow: radial-gradient(ellipse at center, hsl(185 75% 50% / 0.2) 0%, transparent 70%);
+
+    /* Shadows Dark */
+    --shadow-sm: 0 2px 8px hsl(200 50% 5% / 0.3);
+    --shadow-md: 0 4px 20px hsl(200 50% 5% / 0.4);
+    --shadow-lg: 0 8px 40px hsl(200 50% 5% / 0.5);
+    --shadow-glow: 0 0 60px hsl(185 75% 50% / 0.2);
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Glassmorphism Styles */
+  .glass {
+    background: hsl(var(--glass-bg));
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid hsl(var(--glass-border));
+  }
+
+  .glass-card {
+    background: hsl(var(--glass-bg));
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--glass-border));
+    box-shadow: var(--shadow-md);
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Glow Effects */
+  .glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 30px hsl(var(--primary) / 0.5);
+  }
+
+  /* Water Ripple Animation Background */
+  .water-bg {
+    background: 
+      radial-gradient(ellipse 80% 50% at 50% 0%, hsl(var(--aqua-300) / 0.15) 0%, transparent 50%),
+      radial-gradient(ellipse 60% 40% at 80% 80%, hsl(var(--aqua-400) / 0.1) 0%, transparent 50%),
+      radial-gradient(ellipse 50% 30% at 20% 60%, hsl(var(--aqua-500) / 0.08) 0%, transparent 50%),
+      hsl(var(--background));
+  }
+
+  /* Section Styles */
+  .section-padding {
+    @apply px-4 py-16 md:px-8 md:py-24 lg:px-16;
+  }
+
+  .container-width {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* Card Hover Effects */
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--aqua-400));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--aqua-500));
+  }
+}
+
+@layer utilities {
+  /* Animation Utilities */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s linear infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { 
+      box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+    }
+    50% { 
+      box-shadow: 0 0 40px hsl(var(--primary) / 0.5);
+    }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  /* Backdrop blur fallback */
+  @supports not (backdrop-filter: blur(12px)) {
+    .glass, .glass-card {
+      background: hsl(var(--background) / 0.95);
+    }
+  }
+}
