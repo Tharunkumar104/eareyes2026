@@ -10,6 +10,7 @@ export interface Event {
   rules: string[];
   coordinators: { name: string; phone: string }[];
   icon: string;
+  registerLink: string; 
 }
 
 interface EventCardProps {
@@ -206,7 +207,7 @@ export const EventModal = ({ event, isOpen, onClose }: EventModalProps) => {
             {/* Register Button */}
             <Button
               className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3 rounded-xl transition-all hover:shadow-glow"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open(event.registerLink, '_blank')}
             >
               Register Now
             </Button>

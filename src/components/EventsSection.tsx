@@ -22,7 +22,8 @@ const events: Event[] = [
     coordinators: [
       { name: 'Karthik R.', phone: '+91 98765 43214' },
       { name: 'Sneha M.', phone: '+91 98765 43222' }
-    ]
+    ],
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   {
     id: 'project',
@@ -43,7 +44,8 @@ const events: Event[] = [
     coordinators: [
       { name: 'Tharunkumar D.', phone: '+91 9047323169' },
   
-    ]
+    ],
+     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   {
     id: 'circuit',
@@ -62,7 +64,8 @@ const events: Event[] = [
     coordinators: [
       { name: 'Suresh K.', phone: '+91 98765 43216' },
       { name: 'Priya R.', phone: '+91 98765 43224' }
-    ]
+    ],
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   {
     id: 'coding',
@@ -81,7 +84,8 @@ const events: Event[] = [
     coordinators: [
       { name: 'Meena S.', phone: '+91 98765 43217' },
       { name: 'Vijay N.', phone: '+91 98765 43225' }
-    ]
+    ],
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   {
     id: 'ideathon',
@@ -104,8 +108,8 @@ const events: Event[] = [
     ],
     coordinators: [
       { name: 'Rishikeshwaran M.', phone: '+91 97157 08810' },
-     
-    ]
+    ],
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   // Non-Technical Events
   {
@@ -125,7 +129,8 @@ const events: Event[] = [
     coordinators: [
       { name: 'Anitha P.', phone: '+91 98765 43219' },
       { name: 'Ravi M.', phone: '+91 98765 43227' }
-    ]
+    ],
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   {
     id: 'sherlock',
@@ -144,7 +149,8 @@ const events: Event[] = [
     coordinators: [
       { name: 'Vijay S.', phone: '+91 98765 43220' },
       { name: 'Deepa K.', phone: '+91 98765 43228' }
-    ]
+    ],
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   {
     id: 'campus',
@@ -163,7 +169,8 @@ const events: Event[] = [
     coordinators: [
       { name: 'Lakshmi R.', phone: '+91 98765 43221' },
       { name: 'Sathish M.', phone: '+91 98765 43229' }
-    ]
+    ],
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   }
 ];
 
