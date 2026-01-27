@@ -12,11 +12,12 @@ const events: Event[] = [
     description: 'Present your research and innovative ideas in front of expert panels. Showcase your technical knowledge and communication skills through well-structured presentations on cutting-edge topics in Electronics and Instrumentation Engineering.',
     rules: [
       'Maximum 3 members per team',
-      'Presentation duration: 8-10 minutes + 3 minutes Q&A',
-      'Topics must be relevant to EIE domain',
-      'PPT should have maximum 15 slides',
-      'Abstract submission deadline: Feb 10, 2026',
-      'Plagiarism must be below 20%'
+      'Presentation duration: 5 minutes + 2 minutes Q&A',
+      'PPT format from any domain is permitted to present. ',
+      'PPT should contain maximum of 8-10 slides.',
+      'After registration, team leaders must join the WhatsApp group (Link in G-form)',
+      'Participants are asked to be in their respected venue before 10 minutes. ',
+      'Certificates will be given to all the participants.'
     ],
     coordinators: [
       { name: 'Karthik R.', phone: '+91 98765 43214' },
@@ -30,16 +31,18 @@ const events: Event[] = [
     icon: 'project',
     description: 'Demonstrate your working project models and prototypes. This is your chance to showcase hands-on engineering skills and innovative solutions to real-world problems.',
     rules: [
-      'Maximum 4 members per team',
-      'Working model is mandatory',
-      'Presentation duration: 10 minutes + 5 minutes demo',
-      'Power supply will be provided (230V AC)',
-      'Abstract with block diagram required',
-      'Projects must be original work'
+      'Team size: Minimum 2 and Maximum 3 members',
+      'Projects can be presented from any domain ',
+      'Abstract must be submitted in the G-form itself ',
+      'After registration, team leaders must join the WhatsApp group (Link in G-form) ',
+      'Each team get 7 minutes (5 min presentation + 2 min Q/A)',
+      'Prototype is mandatory on the event day',
+      'Certificates will be given to all the participants'
+
     ],
     coordinators: [
-      { name: 'Divya M.', phone: '+91 98765 43215' },
-      { name: 'Arun K.', phone: '+91 98765 43223' }
+      { name: 'Tharunkumar D.', phone: '+91 9047323169' },
+  
     ]
   },
   {
@@ -81,22 +84,28 @@ const events: Event[] = [
     ]
   },
   {
-    id: 'ideation',
-    title: 'Ideation in Tech',
+    id: 'ideathon',
+    title: 'Ideathon',
     type: 'technical',
     icon: 'ideation',
     description: 'Present innovative tech ideas and solutions. This is a prerequisite for the 24-Hour Hackathon - shortlisting will be done through this event.',
     rules: [
-      'Team of 2-4 members mandatory',
-      'Idea must address a real-world problem',
-      'Business model canvas required',
-      'Presentation: 5 minutes pitch + 3 minutes Q&A',
-      'Prototype/mockup encouraged but not mandatory',
-      'Top teams qualify for 24-Hour Hackathon'
+      'The Ideathon is conducted as a preliminary round to shortlist teams for the upcoming Hackathon.',
+      'A total of 50 teams will participate in the Ideathon.',
+      'Each team can consist of maximum 4 members for the Ideathon round.',
+      'Based on evaluation, 30 teams will be shortlisted for the Hackathon.',
+      'Teams selected from the ideathon are allowed to participate in hackathon with their team , maximum of 4 members',
+      'The idea presented in the Ideathon must be continued in the Hackathon without major changes.',
+      'Prizes will be awarded to the Top 3 teams in the Ideathon.',
+      'Cash prizes will be awarded to the Top 3 teams in the Hackathon.',
+      'Ideas will be evaluated based on: Innovation and originality,Problem relevance,Feasibility,Impact,Presentation clarity',
+      'The decision of the judges and organizers will be final and binding.',
+      'Important dates: Ideathon - 17.02.2026,Hackathon - 27 , 28.02.2026
+'
     ],
     coordinators: [
-      { name: 'Rahul V.', phone: '+91 98765 43218' },
-      { name: 'Anitha S.', phone: '+91 98765 43226' }
+      { name: 'Rishikeshwaran M.', phone: '+91 97157 08810' },
+     
     ]
   },
   // Non-Technical Events
