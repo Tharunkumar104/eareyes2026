@@ -289,3 +289,9 @@
     }
   }
 }
+iframe[src*="lovable"],
+div[id*="lovable"],
+div[class*="lovable"],
+a[href*="lovable.dev"] {
+  display: none !important;
+}
