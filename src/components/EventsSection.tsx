@@ -6,10 +6,10 @@ const events: Event[] = [
   // Technical Events
   {
     id: 'paper',
-    title: 'Paper Presentation',
+    title: 'TechNova ',
     type: 'technical',
     icon: 'paper',
-    description: 'Present your research and innovative ideas in front of expert panels. Showcase your technical knowledge and communication skills through well-structured presentations on cutting-edge topics in Electronics and Instrumentation Engineering.',
+    description: 'TechNova is an exciting Paper Presentation event where you can present your ideas and research.',
     rules: [
       'Maximum 3 members per team',
       'Presentation duration: 5 minutes + 2 minutes Q&A',
@@ -20,17 +20,17 @@ const events: Event[] = [
       'Certificates will be given to all the participants.'
     ],
     coordinators: [
-      { name: 'Karthik R.', phone: '+91 98765 43214' },
-      { name: 'Sneha M.', phone: '+91 98765 43222' }
+      { name: 'Madhavan K', phone: '+91 90428 46606' },
+      { name: 'Hareesh M', phone: '+91 63833 59895' }
     ],
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc6u16Ummw_3Wvwn3fsq1rbRMMN_URZemRjq36rCKuheD5v5A/viewform?usp=dialog',
   },
   {
     id: 'project',
-    title: 'Project Presentation',
+    title: 'Innoventure',
     type: 'technical',
     icon: 'project',
-    description: 'Demonstrate your working project models and prototypes. This is your chance to showcase hands-on engineering skills and innovative solutions to real-world problems.',
+    description: 'Innoventure is a dynamic Project Expo showcasing innovative ideas and creations by talented individuals. It provides a platform for participants to present their work, inspire others, and spark collaboration✨',
     rules: [
       'Team size: Minimum 2 and Maximum 3 members',
       'Projects can be presented from any domain ',
@@ -42,14 +42,13 @@ const events: Event[] = [
 
     ],
     coordinators: [
-      { name: 'Tharunkumar D.', phone: '+91 9047323169' },
-  
+      { name: 'Tharunkumar D', phone: '+91 9047323169' },
     ],
      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   {
     id: 'circuit',
-    title: 'Circuit Debugging',
+    title: 'Fix and Flex',
     type: 'technical',
     icon: 'circuit',
     description: 'Test your troubleshooting skills by identifying and fixing errors in electronic circuits. Race against time to debug circuits and prove your practical expertise.',
@@ -62,30 +61,27 @@ const events: Event[] = [
       'Fastest correct solution wins'
     ],
     coordinators: [
-      { name: 'Suresh K.', phone: '+91 98765 43216' },
-      { name: 'Priya R.', phone: '+91 98765 43224' }
+      { name: 'Thamaraiselvan K', phone: '+91 90254 76154' },
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
   {
     id: 'coding',
-    title: 'Coding Challenge',
+    title: 'CodeCraft',
     type: 'technical',
     icon: 'coding',
-    description: 'Put your programming skills to the test in this competitive coding challenge. Solve algorithmic problems and optimize your solutions under time pressure.',
+    description: 'CodeCraft is not just a coding contest, it’s a battle of brains where ideas turn into efficient code. Participants are challenged to think differently, design smart solutions, and craft clean programs under time pressure. Every line of code matters as innovation, logic, and speed✨',
     rules: [
-      'Individual or team of 2 members',
-      'Languages: C, C++, Python, Java',
-      'Duration: 2 hours',
-      'Internet access restricted to IDE only',
-      'Multiple problem statements with varying difficulty',
-      'Partial marking available'
+      'Each team must have 3 members: Coder, Debugger, and Algorithm Designer.',
+      'Work individually; members can help others only after finishing their own task',
+      'Allowed tools: laptops, IDEs, pen & paper; no phones or internet.',
+      'Roles: a.Coder: Write the full program. b. Debugger: Find and fix errors. c. Algorithm Designer: Prepare pseudo-code/algorithm on paper. ',
+      'Evaluation: Based on correctness, efficiency, clarity, teamwork; final submission includes all three roles',
     ],
     coordinators: [
-      { name: 'Meena S.', phone: '+91 98765 43217' },
-      { name: 'Vijay N.', phone: '+91 98765 43225' }
+      { name: 'Shifana K', phone: '+91 93457 14478'},
     ],
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe65cu2Wgko10KXuBlTc8Te91ew39jy1BsWr-HdtQQcb0QD9A/viewform?usp=publish-editor',
   },
   {
     id: 'ideathon',
@@ -109,7 +105,7 @@ const events: Event[] = [
     coordinators: [
       { name: 'Rishikeshwaran M.', phone: '+91 97157 08810' },
     ],
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSesmZzOQ1_ERvgS5baic7KMZd_gcJRtJy88166HrKN-Vri4xw/viewform?usp=publish-editor',
   },
   // Non-Technical Events
   {
