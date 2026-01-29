@@ -18,9 +18,9 @@ const contacts: Contact[] = [
   { name: 'Thamaraiselvan K', role: 'Event Lead', event: 'Circuit Debugging', phone: '+91 90254 76154' },
   { name: 'Shifana K', role: 'Event Lead', event: 'Coding', phone: '+91 93457 14478' },
   { name: 'Rishikeshwaran M', role: 'Event Lead', event: 'Ideathon', phone: '+91 97157 08810' },
-  { name: 'Anitha P', role: 'Event Lead', event: 'Melodia', phone: '+91 98765 43219' },
-  { name: 'Vijay S', role: 'Event Lead', event: 'Sherlock Sense', phone: '+91 98765 43220' },
-  { name: 'Lakshmi R', role: 'Event Lead', event: 'Campus Voyage', phone: '+91 98765 43221' },
+  { name: 'Subisha R', role: 'Event Lead', event: 'Brain Trace', phone: '+91 94888 07717' },
+  { name: 'Arulventhan G M', role: 'Event Lead', event: 'Pick & Pitch', phone: '+91 81228 15659' },
+  { name: 'Lakshmi R', role: 'Event Lead', event: 'Non-tech 3', phone: '+91 98765 43221' },
 ];
 
 export const ContactCards = () => {

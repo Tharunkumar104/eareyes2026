@@ -9,21 +9,17 @@ interface ScheduleItem {
 }
 
 const scheduleData: ScheduleItem[] = [
-  { time: '08:00 AM', event: 'Registration & Check-in', venue: 'Main Entrance', type: 'main' },
-  { time: '09:00 AM', event: 'Inauguration Ceremony', venue: 'Main Auditorium', type: 'ceremony' },
-  { time: '09:45 AM', event: 'Paper Presentation - Round 1', venue: 'Seminar Hall A', type: 'main' },
-  { time: '10:00 AM', event: 'Circuit Debugging Begins', venue: 'Electronics Lab', type: 'main' },
-  { time: '10:00 AM', event: 'Coding Challenge Starts', venue: 'Computer Lab', type: 'main' },
-  { time: '11:00 AM', event: 'Tea Break', type: 'break' },
-  { time: '11:30 AM', event: 'Project Presentation', venue: 'Seminar Hall B', type: 'main' },
-  { time: '11:30 AM', event: 'Ideation in Tech', venue: 'Conference Room', type: 'main' },
-  { time: '01:00 PM', event: 'Lunch Break', type: 'break' },
-  { time: '02:00 PM', event: 'Melodia - Singing Competition', venue: 'Open Stage', type: 'main' },
-  { time: '02:00 PM', event: 'Sherlock Sense', venue: 'Main Block', type: 'main' },
-  { time: '03:00 PM', event: 'Campus Voyage', venue: 'Campus Wide', type: 'main' },
-  { time: '04:00 PM', event: 'Paper Presentation - Finals', venue: 'Seminar Hall A', type: 'main' },
-  { time: '05:00 PM', event: 'Prize Distribution & Valedictory', venue: 'Main Auditorium', type: 'ceremony' },
-  { time: '06:00 PM', event: 'Event Concludes', type: 'ceremony' },
+  {time:'9:00 AM onwards', event:'Ideathon', venue:'Main Lobby', type:'ceremony'},
+  { time: '09:00 AM - 11:00 AM', event: 'TechNova Innoventure', venue: 'Seminar Hall A', type: 'main' },
+  { time: '09:00 AM - 11:00 AM', event: 'Innoventure', venue: 'Seminar Hall A', type: 'main' },
+  { time: '10:25 AM - 10:45 AM', event: 'Break', type: 'break' },
+  { time: '10:50 AM - 12:15 PM', event: 'Fix and Flex', venue: 'Seminar Hall B', type: 'main' },
+  { time: '10:50 AM - 12:15 PM', event: 'CodeCraft', venue: 'Seminar Hall B', type: 'main' },
+  { time: '12:15 PM - 01:15 PM', event: 'Lunch Break', type: 'break' },
+  { time: '01:20 PM - 02:00 PM', event: 'Brain Trace', venue: 'Open Stage', type: 'main' },
+  { time: '02:05 PM - 02:45 PM', event: 'Pick & Pitch', venue: 'Main Block', type: 'main' },
+  { time: '02:50 PM - 03:30 PM', event: 'Non-Tech 3', venue: 'Campus Wide', type: 'main' },
+  { time: '03:45 PM onwards ', event: 'Prize Distribution & Valedictory', venue: 'Main Auditorium', type: 'ceremony' },
 ];
 
 export const ScheduleTimeline = () => {

@@ -108,47 +108,44 @@ const events: Event[] = [
   // Non-Technical Events
   {
     id: 'melodia',
-    title: 'Melodia',
+    title: 'Brain Trace',
     type: 'non-technical',
     icon: 'melodia',
     description: 'Showcase your musical talents in this singing competition. Whether solo or duet, let your voice captivate the audience and judges alike.',
     rules: [
-      'Solo or duet performance',
-      'Song duration: 3-5 minutes',
-      'Karaoke track must be submitted beforehand',
-      'Any language allowed',
-      'No vulgarity in lyrics',
-      'Own instruments allowed'
+      'A team should consist of a minimum of 2 members. ',
+      'Formation of teams from interdisciplinary departments is not allowed. ',
+      'The competition consists of 2 rounds only, each with varying levels of difficulty. ',
+      'Certificates will be provided to all participants. ',
+      'The jury’s decisions are final. ',
     ],
     coordinators: [
-      { name: 'Anitha P', phone: '+91 98765 43219' },
-      { name: 'Ravi M', phone: '+91 98765 43227' }
+      { name: 'Subisha R', phone: '+91 94888 07717'},
     ],
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdEQuJ0MGpkhwMECFWVZUg76wB9iiAFixCNuyBfMj5QfneImw/viewform?usp=publish-editor',
   },
   {
     id: 'sherlock',
-    title: 'Sherlock Sense',
+    title: 'Pick & Pitch',
     type: 'non-technical',
     icon: 'sherlock',
     description: 'Put your detective skills to the test! Solve puzzles, decode clues, and unravel mysteries in this exciting treasure hunt across the campus.',
     rules: [
-      'Team of 3-4 members',
-      'Multiple rounds with increasing difficulty',
-      'Clues scattered across designated areas',
-      'Time-based scoring',
-      'No mobile phones during hunt',
-      'Physical fitness required for outdoor challenges'
+      'Each team must consist of exactly 2 members',
+      'Mobile phones or external assistance are strictly prohibited during the event',
+      'Participants must use only actions and expressions; words, sounds, spelling, or brand names are not allowed',
+      'Teams must identify and promote the given product within the allotted time; extra time may lead to penalties',
+      'Performances should focus on product usage, features, and customer appeal.',
+      'The judges’ and organizers’ decisions will be final and binding.'
     ],
     coordinators: [
-      { name: 'Vijay S', phone: '+91 98765 43220' },
-      { name: 'Deepa K', phone: '+91 98765 43228' }
+      { name: 'Arulventhan G M', phone: '+91 81228 15659'},
     ],
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeyljlhfbWpUGLfk1kJ-WNLqqAkMQjQ4GamiC312RxrUgBvxg/viewform?usp=publish-editor',
   },
   {
     id: 'campus',
-    title: 'Campus Voyage',
+    title: 'Non-tech 3',
     type: 'non-technical',
     icon: 'campus',
     description: 'An adventurous journey through various fun-filled games and activities. Experience a mix of physical challenges, quizzes, and creative tasks.',
