@@ -10,7 +10,7 @@ const events: Event[] = [
     type: 'technical',
     icon: 'paper',
     description: 'TechNova is an exciting Paper Presentation event where you can present your ideas and research.',
-    rules: [
+    rules:[
       'Maximum 3 members per team',
       'Presentation duration: 5 minutes + 2 minutes Q&A',
       'PPT format from any domain is permitted to present. ',
@@ -20,8 +20,7 @@ const events: Event[] = [
       'Certificates will be given to all the participants.'
     ],
     coordinators: [
-      { name: 'Madhavan K', phone: '+91 90428 46606' },
-      { name: 'Hareesh M', phone: '+91 63833 59895' }
+      { name: 'Madhavan K', phone: '+91 90428 46606' }
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc6u16Ummw_3Wvwn3fsq1rbRMMN_URZemRjq36rCKuheD5v5A/viewform?usp=dialog',
   },
@@ -39,7 +38,6 @@ const events: Event[] = [
       'Each team get 7 minutes (5 min presentation + 2 min Q/A)',
       'Prototype is mandatory on the event day',
       'Certificates will be given to all the participants'
-
     ],
     coordinators: [
       { name: 'Tharunkumar D', phone: '+91 9047323169' },
@@ -52,18 +50,18 @@ const events: Event[] = [
     type: 'technical',
     icon: 'circuit',
     description: 'Test your troubleshooting skills by identifying and fixing errors in electronic circuits. Race against time to debug circuits and prove your practical expertise.',
-    rules: [
-      'Individual participation only',
-      'Two rounds: Preliminary (30 min) and Finals (45 min)',
-      'Basic and advanced circuit debugging',
-      'No electronic gadgets allowed',
-      'Components and tools will be provided',
-      'Fastest correct solution wins'
+    rules:[
+      'A team should consist of a minimum of 2 members.',
+      'Formation of teams from interdisciplinary departments is not allowed.',
+      'The competition consists of 2 rounds only, each with varying levels of difficulty.',
+      'Certificates will be provided to all participants.',
+      'Any form of malpractice will lead to immediate disqualification.',
+      'The jury’s decisions are final.',
     ],
     coordinators: [
       { name: 'Thamaraiselvan K', phone: '+91 90254 76154' },
     ],
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
+    registerLink: 'https://forms.gle/f4bzoKRytfaryiUB9',
   },
   {
     id: 'coding',
@@ -71,7 +69,7 @@ const events: Event[] = [
     type: 'technical',
     icon: 'coding',
     description: 'CodeCraft is not just a coding contest, it’s a battle of brains where ideas turn into efficient code. Participants are challenged to think differently, design smart solutions, and craft clean programs under time pressure. Every line of code matters as innovation, logic, and speed✨',
-    rules: [
+    rules:[
       'Each team must have 3 members: Coder, Debugger, and Algorithm Designer.',
       'Work individually; members can help others only after finishing their own task',
       'Allowed tools: laptops, IDEs, pen & paper; no phones or internet.',
@@ -100,10 +98,10 @@ const events: Event[] = [
       'Cash prizes will be awarded to the Top 3 teams in the Hackathon.',
       'Ideas will be evaluated based on: Innovation and originality,Problem relevance,Feasibility,Impact,Presentation clarity',
       'The decision of the judges and organizers will be final and binding.',
-      'Important dates: Ideathon - 17.02.2026,Hackathon - 27 , 28.02.2026.'
+      'Important dates: Ideathon - 17.02.2026,Hackathon - 27 , 28.02.2026.',
     ],
     coordinators: [
-      { name: 'Rishikeshwaran M.', phone: '+91 97157 08810' },
+      { name: 'Rishikeshwaran M', phone: '+91 97157 08810' },
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSesmZzOQ1_ERvgS5baic7KMZd_gcJRtJy88166HrKN-Vri4xw/viewform?usp=publish-editor',
   },
@@ -123,8 +121,8 @@ const events: Event[] = [
       'Own instruments allowed'
     ],
     coordinators: [
-      { name: 'Anitha P.', phone: '+91 98765 43219' },
-      { name: 'Ravi M.', phone: '+91 98765 43227' }
+      { name: 'Anitha P', phone: '+91 98765 43219' },
+      { name: 'Ravi M', phone: '+91 98765 43227' }
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
@@ -143,8 +141,8 @@ const events: Event[] = [
       'Physical fitness required for outdoor challenges'
     ],
     coordinators: [
-      { name: 'Vijay S.', phone: '+91 98765 43220' },
-      { name: 'Deepa K.', phone: '+91 98765 43228' }
+      { name: 'Vijay S', phone: '+91 98765 43220' },
+      { name: 'Deepa K', phone: '+91 98765 43228' }
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   },
@@ -163,8 +161,8 @@ const events: Event[] = [
       'Team coordination is key'
     ],
     coordinators: [
-      { name: 'Lakshmi R.', phone: '+91 98765 43221' },
-      { name: 'Sathish M.', phone: '+91 98765 43229' }
+      { name: 'Lakshmi R', phone: '+91 98765 43221' },
+      { name: 'Sathish M', phone: '+91 98765 43229' }
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   }

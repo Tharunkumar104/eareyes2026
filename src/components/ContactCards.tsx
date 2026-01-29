@@ -9,18 +9,18 @@ interface Contact {
 }
 
 const contacts: Contact[] = [
-  { name: 'Dr.K.N.Baluprithviraj.', role: 'Faculty Coordinator', phone: '+91 98765 43210' },
-  { name: 'N.Indhu.', role: 'Faculty Coordinator', phone: '+91 98765 43211' },
-  { name: 'Madhavan K.', role: 'Student Coordinator', event: 'Overall', phone: '+91 90428 46606' },
-  { name: 'Shafeek A.', role: 'Student Coordinator', event: 'Overall', phone: '+91 93423 93529' },
-  { name: 'Abisha Carin D.', role: 'Event Lead', event: 'Paper Presentation', phone: '+91 94860 67288' },
-  { name: 'Tharunkumar D.', role: 'Event Lead', event: 'Project Presentation', phone: '+91 90473 23169' },
-  { name: 'Thamaraiselvan K.', role: 'Event Lead', event: 'Circuit Debugging', phone: '+91 90254 76154' },
-  { name: 'Shifana K.', role: 'Event Lead', event: 'Coding', phone: '+91 93457 14478' },
-  { name: 'Rishikeshwaran M.', role: 'Event Lead', event: 'Ideathon', phone: '+91 97157 08810' },
-  { name: 'Anitha P.', role: 'Event Lead', event: 'Melodia', phone: '+91 98765 43219' },
-  { name: 'Vijay S.', role: 'Event Lead', event: 'Sherlock Sense', phone: '+91 98765 43220' },
-  { name: 'Lakshmi R.', role: 'Event Lead', event: 'Campus Voyage', phone: '+91 98765 43221' },
+  { name: 'Dr.K.N.Baluprithviraj', role: 'Faculty Coordinator', phone: '+91 98765 43210' },
+  { name: 'N.Indhu', role: 'Faculty Coordinator', phone: '+91 98765 43211' },
+  { name: 'Madhavan K', role: 'Student Coordinator', event: 'Overall', phone: '+91 90428 46606' },
+  { name: 'Shafeek A', role: 'Student Coordinator', event: 'Overall', phone: '+91 93423 93529' },
+  { name: 'Abisha Carin D', role: 'Event Lead', event: 'Paper Presentation', phone: '+91 94860 67288' },
+  { name: 'Tharunkumar D', role: 'Event Lead', event: 'Project Presentation', phone: '+91 90473 23169' },
+  { name: 'Thamaraiselvan K', role: 'Event Lead', event: 'Circuit Debugging', phone: '+91 90254 76154' },
+  { name: 'Shifana K', role: 'Event Lead', event: 'Coding', phone: '+91 93457 14478' },
+  { name: 'Rishikeshwaran M', role: 'Event Lead', event: 'Ideathon', phone: '+91 97157 08810' },
+  { name: 'Anitha P', role: 'Event Lead', event: 'Melodia', phone: '+91 98765 43219' },
+  { name: 'Vijay S', role: 'Event Lead', event: 'Sherlock Sense', phone: '+91 98765 43220' },
+  { name: 'Lakshmi R', role: 'Event Lead', event: 'Campus Voyage', phone: '+91 98765 43221' },
 ];
 
 export const ContactCards = () => {
