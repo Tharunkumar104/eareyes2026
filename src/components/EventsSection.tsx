@@ -6,7 +6,7 @@ import innoventureIcon from './INOVENTURE.webp';
 import technovaIcon from './TECHNOVA.webp';
 import braintraceIcon from './Braintrace.webp';
 import cinebuzzIcon from './Cinebuzz.webp';
-import fixIcon from './Fix and Felx.webp';
+import fixIcon from './Fix and Flex.webp';
 import ideathonIcon from './Ideathon.webp';
 import CodecraftIcon from './Codecraft.webp';
 import pickIcon from './Pick and Pitch.webp';
