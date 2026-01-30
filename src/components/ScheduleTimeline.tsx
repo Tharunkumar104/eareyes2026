@@ -18,7 +18,7 @@ const scheduleData: ScheduleItem[] = [
   { time: '12:15 PM - 01:15 PM', event: 'Lunch Break', type: 'break' },
   { time: '01:20 PM - 02:00 PM', event: 'Brain Trace', venue: 'Open Stage', type: 'main' },
   { time: '02:05 PM - 02:45 PM', event: 'Pick & Pitch', venue: 'Main Block', type: 'main' },
-  { time: '02:50 PM - 03:30 PM', event: 'Non-Tech 3', venue: 'Campus Wide', type: 'main' },
+  { time: '02:50 PM - 03:30 PM', event: 'Cinebuzz', venue: 'Campus Wide', type: 'main' },
   { time: '03:45 PM onwards ', event: 'Prize Distribution & Valedictory', venue: 'Main Auditorium', type: 'ceremony' },
 ];
 
