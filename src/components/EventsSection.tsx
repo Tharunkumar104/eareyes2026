@@ -6,7 +6,7 @@ import innoventureIcon from './INOVENTURE.webp';
 import technovaIcon from './TECHNOVA.webp';
 import braintraceIcon from './Braintrace.webp';
 import cinebuzzIcon from './Cinebuzz.webp';
-import fixIcon from './Fix and Flex.webp';
+import fixIcon from './Fix and Flex.webp'; // ✅ FIXED: Changed "Felx" to "Flex"
 import ideathonIcon from './Ideathon.webp';
 import CodecraftIcon from './Codecraft.webp';
 import pickIcon from './Pick and Pitch.webp';
@@ -17,7 +17,7 @@ const events: Event[] = [
     id: 'paper',
     title: 'TechNova ',
     type: 'technical',
-    iconPath: technovaIcon, // ✅ Using imported image
+    iconPath: technovaIcon,
     description: 'TechNova is an exciting Paper Presentation event where you can present your ideas and research.',
     rules:[
       'Maximum 3 members per team',
@@ -37,7 +37,7 @@ const events: Event[] = [
     id: 'project',
     title: 'Innoventure',
     type: 'technical',
-    iconPath: innoventureIcon, // ✅ Using imported image
+    iconPath: innoventureIcon,
     description: 'Innoventure is a dynamic Project Expo showcasing innovative ideas and creations by talented individuals. It provides a platform for participants to present their work, inspire others, and spark collaboration✨',
     rules: [
       'Team size: Minimum 2 and Maximum 3 members',
@@ -57,7 +57,7 @@ const events: Event[] = [
     id: 'circuit',
     title: 'Fix and Flex',
     type: 'technical',
-    iconPath: fixIcon, // ✅ Using imported image
+    iconPath: fixIcon,
     description: 'Test your troubleshooting skills by identifying and fixing errors in electronic circuits. Race against time to debug circuits and prove your practical expertise.',
     rules:[
       'A team should consist of a minimum of 2 members.',
@@ -76,7 +76,7 @@ const events: Event[] = [
     id: 'coding',
     title: 'CodeCraft',
     type: 'technical',
-    iconPath: CodecraftIcon, // ✅ Using imported image
+    iconPath: CodecraftIcon,
     description: 'CodeCraft is not just a coding contest, it is a battle of brains where ideas turn into efficient code. Participants are challenged to think differently, design smart solutions, and craft clean programs under time pressure. Every line of code matters as innovation, logic, and speed✨',
     rules:[
       'Each team must have 3 members: Coder, Debugger, and Algorithm Designer.',
@@ -94,7 +94,7 @@ const events: Event[] = [
     id: 'ideathon',
     title: 'Ideathon',
     type: 'technical',
-    iconPath: ideathonIcon, // ✅ Using imported image
+    iconPath: ideathonIcon,
     description: 'Present innovative tech ideas and solutions. This is a prerequisite for the 24-Hour Hackathon - shortlisting will be done through this event.',
     rules: [
       'The Ideathon is conducted as a preliminary round to shortlist teams for the upcoming Hackathon.',
@@ -119,7 +119,7 @@ const events: Event[] = [
     id: 'melodia',
     title: 'Brain Trace',
     type: 'non-technical',
-    iconPath: braintraceIcon, // ✅ Using imported image
+    iconPath: braintraceIcon,
     description: 'Team-based cognitive challenge focusing on brand recognition,observation skills and memory power.',
     rules: [
       'A team should consist of a minimum of 2 members. ',
@@ -137,7 +137,7 @@ const events: Event[] = [
     id: 'sherlock',
     title: 'Pick & Pitch',
     type: 'non-technical',
-    iconPath: pickIcon, // ✅ Using imported image
+    iconPath: pickIcon,
     description: 'Put your detective skills to the test! Solve puzzles, decode clues, and unravel mysteries in this exciting treasure hunt across the campus.',
     rules: [
       'Each team must consist of exactly 2 members',
@@ -156,7 +156,7 @@ const events: Event[] = [
     id: 'campus',
     title: 'Cinebuzz',
     type: 'non-technical',
-    iconPath: cinebuzzIcon, // ✅ Using imported image
+    iconPath: cinebuzzIcon,
     description: 'Test your knowledge of movies and cinema in this fun non-technical quiz event.',
     rules: [
       'Participants answer movie and character-based questions two exciting rounds.',
