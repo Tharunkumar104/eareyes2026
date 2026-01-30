@@ -69,10 +69,10 @@ export const ContactSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                 <a
-                  href="tel:+914294226612"
+                  href="tel:+91 93423 93529,+91 94860 67288"
                   className="text-sm text-primary hover:underline"
                 >
-                  +91 4294 226612
+                  +91 93423 93529,+91 94860 67288
                 </a>
                 <p className="text-sm text-muted-foreground mt-1">
                   EIE Department
