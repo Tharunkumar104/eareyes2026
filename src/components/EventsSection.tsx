@@ -9,6 +9,7 @@ import cinebuzzIcon from './Cinebuzz.webp'; // ✅ FIXED: Changed "Felx" to "Fle
 import ideathonIcon from './Ideathon.webp';
 import CodecraftIcon from './Codecraft.webp';
 import pickIcon from './Pickandpitch.webp';
+import fixIcon from './fix.webp';
 
 const events: Event[] = [
   // Technical Events
@@ -56,7 +57,7 @@ const events: Event[] = [
     id: 'circuit',
     title: 'Fix and Flex',
     type: 'technical',
-    iconPath: innoventureIcon,
+    iconPath: fixIcon,
     description: 'Test your troubleshooting skills by identifying and fixing errors in electronic circuits. Race against time to debug circuits and prove your practical expertise.',
     rules:[
       'A team should consist of a minimum of 2 members.',
