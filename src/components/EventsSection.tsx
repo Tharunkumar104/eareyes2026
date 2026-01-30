@@ -5,8 +5,7 @@ import { EventCard, EventModal, Event } from './EventCard';
 import innoventureIcon from './INOVENTURE.webp';
 import technovaIcon from './Technova.webp';
 import braintraceIcon from './Braintrace.webp';
-import cinebuzzIcon from './Cinebuzz.webp';
-import fixIcon from './FixandFlex.webp'; // ✅ FIXED: Changed "Felx" to "Flex"
+import cinebuzzIcon from './Cinebuzz.webp'; // ✅ FIXED: Changed "Felx" to "Flex"
 import ideathonIcon from './Ideathon.webp';
 import CodecraftIcon from './Codecraft.webp';
 import pickIcon from './Pickandpitch.webp';
@@ -57,7 +56,7 @@ const events: Event[] = [
     id: 'circuit',
     title: 'Fix and Flex',
     type: 'technical',
-    iconPath: fixIcon,
+    iconPath: innoventureIcon,
     description: 'Test your troubleshooting skills by identifying and fixing errors in electronic circuits. Race against time to debug circuits and prove your practical expertise.',
     rules:[
       'A team should consist of a minimum of 2 members.',
