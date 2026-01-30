@@ -10,7 +10,7 @@ interface ScheduleItem {
 
 const scheduleData: ScheduleItem[] = [
   {time:'9:00 AM onwards', event:'Ideathon', venue:'Main Lobby', type:'ceremony'},
-  { time: '09:00 AM - 11:00 AM', event: 'TechNova Innoventure', venue: 'Seminar Hall A', type: 'main' },
+  { time: '09:00 AM - 11:00 AM', event: 'TechNova', venue: 'Seminar Hall A', type: 'main' },
   { time: '09:00 AM - 11:00 AM', event: 'Innoventure', venue: 'Seminar Hall A', type: 'main' },
   { time: '10:25 AM - 10:45 AM', event: 'Break', type: 'break' },
   { time: '10:50 AM - 12:15 PM', event: 'Fix and Flex', venue: 'Seminar Hall B', type: 'main' },

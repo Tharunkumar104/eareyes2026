@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { EventCard, EventModal, Event } from './EventCard';
+// Import the image from the components folder (same folder as this file)
+import innoventureIcon from './INOVENTURE.webp';
 
 const events: Event[] = [
   // Technical Events
@@ -8,7 +10,7 @@ const events: Event[] = [
     id: 'paper',
     title: 'TechNova ',
     type: 'technical',
-    icon: 'paper',
+    iconPath: innoventureIcon, // ✅ Using imported image
     description: 'TechNova is an exciting Paper Presentation event where you can present your ideas and research.',
     rules:[
       'Maximum 3 members per team',
@@ -28,7 +30,7 @@ const events: Event[] = [
     id: 'project',
     title: 'Innoventure',
     type: 'technical',
-    icon: 'project',
+    iconPath: innoventureIcon, // ✅ Using imported image
     description: 'Innoventure is a dynamic Project Expo showcasing innovative ideas and creations by talented individuals. It provides a platform for participants to present their work, inspire others, and spark collaboration✨',
     rules: [
       'Team size: Minimum 2 and Maximum 3 members',
@@ -48,7 +50,7 @@ const events: Event[] = [
     id: 'circuit',
     title: 'Fix and Flex',
     type: 'technical',
-    icon: 'circuit',
+    iconPath: innoventureIcon, // ✅ Using imported image
     description: 'Test your troubleshooting skills by identifying and fixing errors in electronic circuits. Race against time to debug circuits and prove your practical expertise.',
     rules:[
       'A team should consist of a minimum of 2 members.',
@@ -56,7 +58,7 @@ const events: Event[] = [
       'The competition consists of 2 rounds only, each with varying levels of difficulty.',
       'Certificates will be provided to all participants.',
       'Any form of malpractice will lead to immediate disqualification.',
-      'The jury’s decisions are final.',
+      'The jurys decisions are final.',
     ],
     coordinators: [
       { name: 'Thamaraiselvan K', phone: '+91 90254 76154' },
@@ -67,8 +69,8 @@ const events: Event[] = [
     id: 'coding',
     title: 'CodeCraft',
     type: 'technical',
-    icon: 'coding',
-    description: 'CodeCraft is not just a coding contest, it’s a battle of brains where ideas turn into efficient code. Participants are challenged to think differently, design smart solutions, and craft clean programs under time pressure. Every line of code matters as innovation, logic, and speed✨',
+    iconPath: innoventureIcon, // ✅ Using imported image
+    description: 'CodeCraft is not just a coding contest, it is a battle of brains where ideas turn into efficient code. Participants are challenged to think differently, design smart solutions, and craft clean programs under time pressure. Every line of code matters as innovation, logic, and speed✨',
     rules:[
       'Each team must have 3 members: Coder, Debugger, and Algorithm Designer.',
       'Work individually; members can help others only after finishing their own task',
@@ -85,7 +87,7 @@ const events: Event[] = [
     id: 'ideathon',
     title: 'Ideathon',
     type: 'technical',
-    icon: 'ideation',
+    iconPath: innoventureIcon, // ✅ Using imported image
     description: 'Present innovative tech ideas and solutions. This is a prerequisite for the 24-Hour Hackathon - shortlisting will be done through this event.',
     rules: [
       'The Ideathon is conducted as a preliminary round to shortlist teams for the upcoming Hackathon.',
@@ -110,17 +112,17 @@ const events: Event[] = [
     id: 'melodia',
     title: 'Brain Trace',
     type: 'non-technical',
-    icon: 'melodia',
+    iconPath: innoventureIcon, // ✅ Using imported image
     description: 'Showcase your musical talents in this singing competition. Whether solo or duet, let your voice captivate the audience and judges alike.',
     rules: [
       'A team should consist of a minimum of 2 members. ',
       'Formation of teams from interdisciplinary departments is not allowed. ',
       'The competition consists of 2 rounds only, each with varying levels of difficulty. ',
       'Certificates will be provided to all participants. ',
-      'The jury’s decisions are final. ',
+      'The jurys decisions are final. ',
     ],
     coordinators: [
-      { name: 'Subisha R', phone: '+91 94888 07717'},
+      { name: 'Subiksha R', phone: '+91 94888 07717'},
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdEQuJ0MGpkhwMECFWVZUg76wB9iiAFixCNuyBfMj5QfneImw/viewform?usp=publish-editor',
   },
@@ -128,7 +130,7 @@ const events: Event[] = [
     id: 'sherlock',
     title: 'Pick & Pitch',
     type: 'non-technical',
-    icon: 'sherlock',
+    iconPath: innoventureIcon, // ✅ Using imported image
     description: 'Put your detective skills to the test! Solve puzzles, decode clues, and unravel mysteries in this exciting treasure hunt across the campus.',
     rules: [
       'Each team must consist of exactly 2 members',
@@ -136,7 +138,7 @@ const events: Event[] = [
       'Participants must use only actions and expressions; words, sounds, spelling, or brand names are not allowed',
       'Teams must identify and promote the given product within the allotted time; extra time may lead to penalties',
       'Performances should focus on product usage, features, and customer appeal.',
-      'The judges’ and organizers’ decisions will be final and binding.'
+      'The judges and organizers decisions will be final and binding.'
     ],
     coordinators: [
       { name: 'Arulventhan G M', phone: '+91 81228 15659'},
@@ -147,7 +149,7 @@ const events: Event[] = [
     id: 'campus',
     title: 'Non-tech 3',
     type: 'non-technical',
-    icon: 'campus',
+    iconPath: innoventureIcon, // ✅ Using imported image
     description: 'An adventurous journey through various fun-filled games and activities. Experience a mix of physical challenges, quizzes, and creative tasks.',
     rules: [
       'Team of 4 members',

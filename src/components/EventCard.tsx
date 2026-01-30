@@ -9,7 +9,7 @@ export interface Event {
   description: string;
   rules: string[];
   coordinators: { name: string; phone: string }[];
-  icon: string;
+  iconPath: string;
   registerLink: string; 
 }
 
@@ -19,18 +19,8 @@ interface EventCardProps {
   onSelect: (event: Event) => void;
 }
 
+// OPTION 1: Square Image with Better Fit
 export const EventCard = ({ event, index, onSelect }: EventCardProps) => {
-  const iconMap: { [key: string]: string } = {
-    paper: '📄',
-    project: '🔧',
-    circuit: '⚡',
-    coding: '💻',
-    ideation: '💡',
-    melodia: '🎵',
-    sherlock: '🔍',
-    campus: '🎯',
-  };
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -39,44 +29,127 @@ export const EventCard = ({ event, index, onSelect }: EventCardProps) => {
       viewport={{ once: true }}
       whileHover={{ y: -8, scale: 1.02 }}
       onClick={() => onSelect(event)}
-      className="glass-card rounded-2xl p-6 cursor-pointer card-hover group"
+      className="glass-card rounded-2xl p-6 cursor-pointer card-hover group relative overflow-hidden"
     >
-      {/* Icon */}
-      <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform">
-        {iconMap[event.icon] || '🎯'}
+      {/* Background blur effect */}
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity">
+        <img 
+          src={event.iconPath} 
+          alt=""
+          className="w-full h-full object-cover blur-2xl scale-150"
+        />
       </div>
 
-      {/* Type Badge */}
-      <span
-        className={`inline-block px-3 py-1 rounded-full text-xs font-medium mb-3 ${
-          event.type === 'technical'
-            ? 'bg-primary/10 text-primary'
-            : 'bg-accent/10 text-accent'
-        }`}
-      >
-        {event.type === 'technical' ? 'Technical' : 'Non-Technical'}
-      </span>
+      {/* Content */}
+      <div className="relative z-10">
+        {/* Image Container - Circular for better logo display */}
+        <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-3 group-hover:scale-105 transition-all duration-300 shadow-lg border border-white/10">
+          <img 
+            src={event.iconPath} 
+            alt={`${event.title} icon`}
+            className="w-full h-full object-contain drop-shadow-xl"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = 'https://via.placeholder.com/200x200/1a1a2e/ffffff?text=Event';
+            }}
+          />
+        </div>
 
-      {/* Title */}
-      <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
-        {event.title}
-      </h3>
+        {/* Type Badge */}
+        <div className="flex justify-center mb-3">
+          <span
+            className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${
+              event.type === 'technical'
+                ? 'bg-primary/10 text-primary border border-primary/20'
+                : 'bg-accent/10 text-accent border border-accent/20'
+            }`}
+          >
+            {event.type === 'technical' ? 'Technical' : 'Non-Technical'}
+          </span>
+        </div>
 
-      {/* Description Preview */}
-      <p className="text-sm text-muted-foreground line-clamp-2">
-        {event.description}
-      </p>
+        {/* Title */}
+        <h3 className="text-lg sm:text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors text-center line-clamp-2">
+          {event.title}
+        </h3>
 
-      {/* View Details */}
-      <div className="mt-4 flex items-center text-sm font-medium text-primary">
-        <span>View Details</span>
-        <motion.span
-          className="ml-1"
-          initial={{ x: 0 }}
-          whileHover={{ x: 5 }}
+        {/* Description Preview */}
+        <p className="text-sm text-muted-foreground line-clamp-3 mb-4 text-center">
+          {event.description}
+        </p>
+
+        {/* View Details */}
+        <div className="flex justify-center items-center text-sm font-medium text-primary">
+          <span>View Details</span>
+          <motion.span
+            className="ml-1"
+            initial={{ x: 0 }}
+            whileHover={{ x: 5 }}
+          >
+            →
+          </motion.span>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+// OPTION 2: Alternative with Top Banner Image
+export const EventCardBanner = ({ event, index, onSelect }: EventCardProps) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ delay: index * 0.1, duration: 0.5 }}
+      viewport={{ once: true }}
+      whileHover={{ y: -8, scale: 1.02 }}
+      onClick={() => onSelect(event)}
+      className="glass-card rounded-2xl overflow-hidden cursor-pointer card-hover group"
+    >
+      {/* Banner Image */}
+      <div className="relative w-full h-32 sm:h-40 bg-gradient-to-br from-primary/10 to-accent/10 overflow-hidden">
+        <img 
+          src={event.iconPath} 
+          alt={`${event.title} banner`}
+          className="w-full h-full object-cover opacity-90 group-hover:scale-110 transition-transform duration-500"
+        />
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+        
+        {/* Type Badge on Image */}
+        <span
+          className={`absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-medium backdrop-blur-md ${
+            event.type === 'technical'
+              ? 'bg-primary/20 text-primary border border-primary/30'
+              : 'bg-accent/20 text-accent border border-accent/30'
+          }`}
         >
-          →
-        </motion.span>
+          {event.type === 'technical' ? 'Technical' : 'Non-Technical'}
+        </span>
+      </div>
+
+      {/* Content */}
+      <div className="p-6">
+        {/* Title */}
+        <h3 className="text-lg sm:text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors line-clamp-2">
+          {event.title}
+        </h3>
+
+        {/* Description Preview */}
+        <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
+          {event.description}
+        </p>
+
+        {/* View Details */}
+        <div className="flex items-center text-sm font-medium text-primary">
+          <span>View Details</span>
+          <motion.span
+            className="ml-1"
+            initial={{ x: 0 }}
+            whileHover={{ x: 5 }}
+          >
+            →
+          </motion.span>
+        </div>
       </div>
     </motion.div>
   );
@@ -119,20 +192,31 @@ export const EventModal = ({ event, isOpen, onClose }: EventModalProps) => {
               <X className="h-5 w-5" />
             </Button>
 
-            {/* Header */}
+            {/* Header with Image */}
             <div className="mb-6">
-              <span
-                className={`inline-block px-3 py-1 rounded-full text-xs font-medium mb-3 ${
-                  event.type === 'technical'
-                    ? 'bg-primary/10 text-primary'
-                    : 'bg-accent/10 text-accent'
-                }`}
-              >
-                {event.type === 'technical' ? 'Technical' : 'Non-Technical'}
-              </span>
-              <h2 className="text-2xl md:text-3xl font-bold text-foreground">
-                {event.title}
-              </h2>
+              {/* Event Image in Modal - Better sized */}
+              <div className="w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-4 flex items-center justify-center overflow-hidden border border-white/10 shadow-2xl">
+                <img 
+                  src={event.iconPath} 
+                  alt={`${event.title} logo`}
+                  className="w-full h-full object-contain drop-shadow-2xl"
+                />
+              </div>
+              
+              <div className="text-center">
+                <span
+                  className={`inline-block px-3 py-1 rounded-full text-xs font-medium mb-3 ${
+                    event.type === 'technical'
+                      ? 'bg-primary/10 text-primary border border-primary/20'
+                      : 'bg-accent/10 text-accent border border-accent/20'
+                  }`}
+                >
+                  {event.type === 'technical' ? 'Technical' : 'Non-Technical'}
+                </span>
+                <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+                  {event.title}
+                </h2>
+              </div>
             </div>
 
             {/* Description */}
@@ -161,10 +245,10 @@ export const EventModal = ({ event, isOpen, onClose }: EventModalProps) => {
                     transition={{ delay: index * 0.1 }}
                     className="flex items-start gap-3 text-sm text-muted-foreground"
                   >
-                    <span className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-xs font-semibold text-primary flex-shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-xs font-semibold text-primary flex-shrink-0 mt-0.5">
                       {index + 1}
                     </span>
-                    {rule}
+                    <span className="flex-1">{rule}</span>
                   </motion.li>
                 ))}
               </ul>
@@ -180,23 +264,23 @@ export const EventModal = ({ event, isOpen, onClose }: EventModalProps) => {
                 {event.coordinators.map((coordinator, index) => (
                   <div
                     key={index}
-                    className="flex items-center gap-3 p-3 rounded-xl bg-muted/50"
+                    className="flex items-center gap-3 p-3 rounded-xl bg-muted/50 hover:bg-muted/70 transition-colors"
                   >
-                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                       <span className="text-sm font-semibold text-primary">
                         {coordinator.name.charAt(0)}
                       </span>
                     </div>
-                    <div>
-                      <p className="font-medium text-foreground text-sm">
+                    <div className="flex-1 min-w-0">
+                      <p className="font-medium text-foreground text-sm truncate">
                         {coordinator.name}
                       </p>
                       <a
                         href={`tel:${coordinator.phone}`}
                         className="flex items-center gap-1 text-xs text-primary hover:underline"
                       >
-                        <Phone className="w-3 h-3" />
-                        {coordinator.phone}
+                        <Phone className="w-3 h-3 flex-shrink-0" />
+                        <span className="truncate">{coordinator.phone}</span>
                       </a>
                     </div>
                   </div>
