@@ -19,7 +19,6 @@ interface EventCardProps {
   onSelect: (event: Event) => void;
 }
 
-// OPTION 1: Square Image with Better Fit
 export const EventCard = ({ event, index, onSelect }: EventCardProps) => {
   return (
     <motion.div
@@ -42,14 +41,14 @@ export const EventCard = ({ event, index, onSelect }: EventCardProps) => {
 
       {/* Content */}
       <div className="relative z-10">
-        {/* Image Container - Circular for better logo display */}
-        <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-3 group-hover:scale-105 transition-all duration-300 shadow-lg border border-white/10">
+        {/* Image Container - INCREASED SIZE */}
+        <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 mx-auto mb-5 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-4 group-hover:scale-105 transition-all duration-300 shadow-xl border border-white/10">
           <img 
             src={event.iconPath} 
             alt={`${event.title} icon`}
-            className="w-full h-full object-contain drop-shadow-xl"
+            className="w-full h-full object-contain drop-shadow-2xl"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = 'https://via.placeholder.com/200x200/1a1a2e/ffffff?text=Event';
+              (e.target as HTMLImageElement).src = 'https://via.placeholder.com/300x300/1a1a2e/ffffff?text=Event';
             }}
           />
         </div>
@@ -105,8 +104,8 @@ export const EventCardBanner = ({ event, index, onSelect }: EventCardProps) => {
       onClick={() => onSelect(event)}
       className="glass-card rounded-2xl overflow-hidden cursor-pointer card-hover group"
     >
-      {/* Banner Image */}
-      <div className="relative w-full h-32 sm:h-40 bg-gradient-to-br from-primary/10 to-accent/10 overflow-hidden">
+      {/* Banner Image - INCREASED SIZE */}
+      <div className="relative w-full h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-primary/10 to-accent/10 overflow-hidden">
         <img 
           src={event.iconPath} 
           alt={`${event.title} banner`}
@@ -194,8 +193,8 @@ export const EventModal = ({ event, isOpen, onClose }: EventModalProps) => {
 
             {/* Header with Image */}
             <div className="mb-6">
-              {/* Event Image in Modal - Better sized */}
-              <div className="w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-4 flex items-center justify-center overflow-hidden border border-white/10 shadow-2xl">
+              {/* Event Image in Modal - INCREASED SIZE */}
+              <div className="w-64 h-64 sm:w-72 sm:h-72 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-5 flex items-center justify-center overflow-hidden border border-white/10 shadow-2xl">
                 <img 
                   src={event.iconPath} 
                   alt={`${event.title} logo`}

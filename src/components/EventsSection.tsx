@@ -3,6 +3,13 @@ import { motion } from 'framer-motion';
 import { EventCard, EventModal, Event } from './EventCard';
 // Import the image from the components folder (same folder as this file)
 import innoventureIcon from './INOVENTURE.webp';
+import technovaIcon from './TECHNOVA.webp';
+import braintraceIcon from './Braintrace.webp';
+import cinebuzzIcon from './Cinebuzz.webp';
+import fixIcon from './Fix and Felx.webp';
+import ideathonIcon from './Ideathon.webp';
+import CodecraftIcon from './Codecraft.webp';
+import pickIcon from './Pick and Pitch.webp';
 
 const events: Event[] = [
   // Technical Events
@@ -10,7 +17,7 @@ const events: Event[] = [
     id: 'paper',
     title: 'TechNova ',
     type: 'technical',
-    iconPath: innoventureIcon, // ✅ Using imported image
+    iconPath: technovaIcon, // ✅ Using imported image
     description: 'TechNova is an exciting Paper Presentation event where you can present your ideas and research.',
     rules:[
       'Maximum 3 members per team',
@@ -50,7 +57,7 @@ const events: Event[] = [
     id: 'circuit',
     title: 'Fix and Flex',
     type: 'technical',
-    iconPath: innoventureIcon, // ✅ Using imported image
+    iconPath: fixIcon, // ✅ Using imported image
     description: 'Test your troubleshooting skills by identifying and fixing errors in electronic circuits. Race against time to debug circuits and prove your practical expertise.',
     rules:[
       'A team should consist of a minimum of 2 members.',
@@ -69,7 +76,7 @@ const events: Event[] = [
     id: 'coding',
     title: 'CodeCraft',
     type: 'technical',
-    iconPath: innoventureIcon, // ✅ Using imported image
+    iconPath: CodecraftIcon, // ✅ Using imported image
     description: 'CodeCraft is not just a coding contest, it is a battle of brains where ideas turn into efficient code. Participants are challenged to think differently, design smart solutions, and craft clean programs under time pressure. Every line of code matters as innovation, logic, and speed✨',
     rules:[
       'Each team must have 3 members: Coder, Debugger, and Algorithm Designer.',
@@ -87,7 +94,7 @@ const events: Event[] = [
     id: 'ideathon',
     title: 'Ideathon',
     type: 'technical',
-    iconPath: innoventureIcon, // ✅ Using imported image
+    iconPath: ideathonIcon, // ✅ Using imported image
     description: 'Present innovative tech ideas and solutions. This is a prerequisite for the 24-Hour Hackathon - shortlisting will be done through this event.',
     rules: [
       'The Ideathon is conducted as a preliminary round to shortlist teams for the upcoming Hackathon.',
@@ -112,8 +119,8 @@ const events: Event[] = [
     id: 'melodia',
     title: 'Brain Trace',
     type: 'non-technical',
-    iconPath: innoventureIcon, // ✅ Using imported image
-    description: 'Showcase your musical talents in this singing competition. Whether solo or duet, let your voice captivate the audience and judges alike.',
+    iconPath: braintraceIcon, // ✅ Using imported image
+    description: 'Team-based cognitive challenge focusing on brand recognition,observation skills and memory power.',
     rules: [
       'A team should consist of a minimum of 2 members. ',
       'Formation of teams from interdisciplinary departments is not allowed. ',
@@ -130,7 +137,7 @@ const events: Event[] = [
     id: 'sherlock',
     title: 'Pick & Pitch',
     type: 'non-technical',
-    iconPath: innoventureIcon, // ✅ Using imported image
+    iconPath: pickIcon, // ✅ Using imported image
     description: 'Put your detective skills to the test! Solve puzzles, decode clues, and unravel mysteries in this exciting treasure hunt across the campus.',
     rules: [
       'Each team must consist of exactly 2 members',
@@ -147,17 +154,19 @@ const events: Event[] = [
   },
   {
     id: 'campus',
-    title: 'Non-tech 3',
+    title: 'Cinebuzz',
     type: 'non-technical',
-    iconPath: innoventureIcon, // ✅ Using imported image
-    description: 'An adventurous journey through various fun-filled games and activities. Experience a mix of physical challenges, quizzes, and creative tasks.',
+    iconPath: cinebuzzIcon, // ✅ Using imported image
+    description: 'Test your knowledge of movies and cinema in this fun non-technical quiz event.',
     rules: [
-      'Team of 4 members',
-      'Multiple checkpoint-based activities',
-      'Points awarded at each station',
-      'Time penalties for rule violations',
+      'Participants answer movie and character-based questions two exciting rounds.',
+      'Each team can participate as per event instructions.',
+      'The event will be conducted two round',
       'Sports attire recommended',
-      'Team coordination is key'
+      'Round 1: Identify the movie name based on given clues.',
+      'Round 2: Identify the characters using visual or textual hints.',
+      'Use of unfair means or external help is not allowed.',
+      'Judges decision will be final.'
     ],
     coordinators: [
       { name: 'Lakshmi R', phone: '+91 98765 43221' },
