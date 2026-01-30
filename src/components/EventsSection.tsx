@@ -6,10 +6,10 @@ import innoventureIcon from './INOVENTURE.webp';
 import technovaIcon from './Technova.webp';
 import braintraceIcon from './Braintrace.webp';
 import cinebuzzIcon from './Cinebuzz.webp';
-import fixIcon from './Fix and Flex.webp'; // ✅ FIXED: Changed "Felx" to "Flex"
+import fixIcon from './FixandFlex.webp'; // ✅ FIXED: Changed "Felx" to "Flex"
 import ideathonIcon from './Ideathon.webp';
 import CodecraftIcon from './Codecraft.webp';
-import pickIcon from './Pick and Pitch.webp';
+import pickIcon from './Pickandpitch.webp';
 
 const events: Event[] = [
   // Technical Events
