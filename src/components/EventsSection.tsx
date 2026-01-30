@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { EventCard, EventModal, Event } from './EventCard';
 // Import the image from the components folder (same folder as this file)
 import innoventureIcon from './INOVENTURE.webp';
-import technovaIcon from './TECHNOVA.webp';
+import technovaIcon from './Technova.webp';
 import braintraceIcon from './Braintrace.webp';
 import cinebuzzIcon from './Cinebuzz.webp';
 import fixIcon from './Fix and Flex.webp'; // ✅ FIXED: Changed "Felx" to "Flex"
