@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { CountdownTimer } from './CountdownTimer';
 import { ChevronDown, MapPin, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import poster from '@/assets/eareyes-poster.jpg';
+import poster from './poster.webp';
 
 interface HeroSectionProps {
   targetDate: Date;
