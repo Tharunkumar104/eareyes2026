@@ -116,6 +116,25 @@ const events: Event[] = [
   },
   // Non-Technical Events
   {
+    id: 'sherlock',
+    title: 'Pick & Pitch',
+    type: 'non-technical',
+    iconPath: pickIcon,
+    description: 'A fun two-member event where you act to find a product and promote it creatively. Quick thinking, smart acting, and teamwork will lead you to victoy.',
+    rules: [
+      'Each team must consist of exactly 2 members',
+      'Mobile phones or external assistance are strictly prohibited during the event',
+      'Participants must use only actions and expressions; words, sounds, spelling, or brand names are not allowed',
+      'Teams must identify and promote the given product within the allotted time; extra time may lead to penalties',
+      'Performances should focus on product usage, features, and customer appeal.',
+      'The judges and organizers decisions will be final and binding.'
+    ],
+    coordinators: [
+      { name: 'Arulventhan G M', phone: '+91 81228 15659'},
+    ],
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeyljlhfbWpUGLfk1kJ-WNLqqAkMQjQ4GamiC312RxrUgBvxg/viewform?usp=publish-editor',
+  },
+  {
     id: 'melodia',
     title: 'Brain Trace',
     type: 'non-technical',
@@ -132,25 +151,6 @@ const events: Event[] = [
       { name: 'Subiksha R', phone: '+91 94888 07719'},
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdEQuJ0MGpkhwMECFWVZUg76wB9iiAFixCNuyBfMj5QfneImw/viewform?usp=publish-editor',
-  },
-  {
-    id: 'sherlock',
-    title: 'Pick & Pitch',
-    type: 'non-technical',
-    iconPath: pickIcon,
-    description: 'Afun two-member envent where you act to find a product and promote it creatively. Quic thinking, smart acting, and teamwork will lead you to victoy.',
-    rules: [
-      'Each team must consist of exactly 2 members',
-      'Mobile phones or external assistance are strictly prohibited during the event',
-      'Participants must use only actions and expressions; words, sounds, spelling, or brand names are not allowed',
-      'Teams must identify and promote the given product within the allotted time; extra time may lead to penalties',
-      'Performances should focus on product usage, features, and customer appeal.',
-      'The judges and organizers decisions will be final and binding.'
-    ],
-    coordinators: [
-      { name: 'Arulventhan G M', phone: '+91 81228 15659'},
-    ],
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeyljlhfbWpUGLfk1kJ-WNLqqAkMQjQ4GamiC312RxrUgBvxg/viewform?usp=publish-editor',
   },
   {
     id: 'campus',
