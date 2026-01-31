@@ -20,7 +20,7 @@ export const ContactSection = () => {
             Contact Us
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Have questions? Reach out to our coordinators or visit us at Kongu Engineering College
+            Have questions? Reach out to our coordinators. We're here to help!
           </p>
         </motion.div>
 

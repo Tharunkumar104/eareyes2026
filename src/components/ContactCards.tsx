@@ -10,7 +10,7 @@ interface Contact {
 
 const contacts: Contact[] = [
   { name: 'Dr.K.N.Baluprithviraj', role: 'Faculty Coordinator', phone: '+91 93630 67473' },
-  { name: 'N.Indhu', role: 'Faculty Coordinator', phone: '+91 94894 65312' },
+  { name: 'Ms.N.Indhu', role: 'Faculty Coordinator', phone: '+91 94894 65312' },
   { name: 'Madhavan K', role: 'Student Coordinator', event: 'Overall', phone: '+91 90428 46606' },
   { name: 'Shafeek A', role: 'Student Coordinator', event: 'Overall', phone: '+91 93423 93529' },
   { name: 'Abisha Carin D', role: 'Event Lead', event: 'Technova', phone: '+91 94860 67288' },
@@ -18,8 +18,8 @@ const contacts: Contact[] = [
   { name: 'Thamaraiselvan K', role: 'Event Lead', event: 'Fix and Flex', phone: '+91 90254 76154' },
   { name: 'Shifana K', role: 'Event Lead', event: 'CodeCraft', phone: '+91 93457 14478' },
   { name: 'Rishikeshwaran M', role: 'Event Lead', event: 'Ideathon', phone: '+91 97157 08810' },
-  { name: 'Subiksha R', role: 'Event Lead', event: 'Brain Trace', phone: '+91 94888 07719' },
   { name: 'Arulventhan G M', role: 'Event Lead', event: 'Pick & Pitch', phone: '+91 81228 15659' },
+  { name: 'Subiksha R', role: 'Event Lead', event: 'Brain Trace', phone: '+91 94888 07719' },
   { name: 'Prabhashini P', role: 'Event Lead', event: 'Cinebuzz', phone: '+91 93612 89677' },
 ];
 
