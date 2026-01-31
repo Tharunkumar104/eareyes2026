@@ -39,9 +39,9 @@ export const ContactSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Venue</h3>
                 <p className="text-sm text-muted-foreground">
+                  Depatment of Electronics and Instrumentation<br />
                   Kongu Engineering College<br />
-                  Perundurai, Erode - 638060<br />
-                  Tamil Nadu, India
+                  Perundurai, Erode - 638 060<br />
                 </p>
               </div>
             </div>
@@ -55,7 +55,7 @@ export const ContactSection = () => {
                   href="mailto:eareyes@kongu.edu"
                   className="text-sm text-primary hover:underline"
                 >
-                  eareyes@kongu.edu
+                  eareyes2k26@kongu.edu
                 </a>
                 <p className="text-sm text-muted-foreground mt-1">
                   For general inquiries

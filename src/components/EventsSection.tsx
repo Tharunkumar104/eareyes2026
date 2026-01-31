@@ -129,7 +129,7 @@ const events: Event[] = [
       'The jurys decisions are final. ',
     ],
     coordinators: [
-      { name: 'Subiksha R', phone: '+91 94888 07717'},
+      { name: 'Subiksha R', phone: '+91 94888 07719'},
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdEQuJ0MGpkhwMECFWVZUg76wB9iiAFixCNuyBfMj5QfneImw/viewform?usp=publish-editor',
   },
@@ -169,8 +169,7 @@ const events: Event[] = [
       'Judges decision will be final.'
     ],
     coordinators: [
-      { name: 'Lakshmi R', phone: '+91 98765 43221' },
-      { name: 'Sathish M', phone: '+91 98765 43229' }
+      { name: 'Prabhashini P', phone: '+91 93612 89677' },
     ],
     registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
   }
