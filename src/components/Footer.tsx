@@ -14,7 +14,7 @@ export const Footer = () => {
               EAREYES 2K26
             </h3>
             <p className="text-sm text-muted-foreground">
-              Intra-College Technical Symposium
+              Inter Department Technical Symposium
             </p>
           </div>
 

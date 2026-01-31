@@ -138,7 +138,7 @@ const events: Event[] = [
     title: 'Pick & Pitch',
     type: 'non-technical',
     iconPath: pickIcon,
-    description: 'Put your detective skills to the test! Solve puzzles, decode clues, and unravel mysteries in this exciting treasure hunt across the campus.',
+    description: 'Afun two-member envent where you act to find a product and promote it creatively. Quic thinking, smart acting, and teamwork will lead you to victoy.',
     rules: [
       'Each team must consist of exactly 2 members',
       'Mobile phones or external assistance are strictly prohibited during the event',

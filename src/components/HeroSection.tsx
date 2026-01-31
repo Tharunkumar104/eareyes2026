@@ -42,7 +42,7 @@ export const HeroSection = ({ targetDate }: HeroSectionProps) => {
             >
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               <span className="text-sm font-medium text-primary">
-                Intra-College Technical Symposium
+                Inter Depatment Technical Symposium
               </span>
             </motion.div>
 
