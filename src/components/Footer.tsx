@@ -20,7 +20,8 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div className="flex items-center gap-6">
-            {['Home', 'Events', 'Schedule', 'Gallery', 'Contact'].map((link) => (
+            {//['Home', 'Events', 'Schedule', 'Gallery', 'Contact'].map((link) => (
+            ['Home', 'Events', 'Schedule','Contact'].map((link) => (
               <motion.a
                 key={link}
                 href={`#${link.toLowerCase()}`}
