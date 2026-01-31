@@ -57,7 +57,7 @@ export const WelcomePopup = ({ isOpen, onClose, targetDate }: WelcomePopupProps)
                   EAREYES 2K26
                 </h2>
                 <p className="text-muted-foreground">
-                  Inter-College Technical Symposium
+                  Inter Department Technical Symposium
                 </p>
               </div>
 
