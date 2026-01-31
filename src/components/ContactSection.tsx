@@ -39,7 +39,7 @@ export const ContactSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Venue</h3>
                 <p className="text-sm text-muted-foreground">
-                  Depatment of Electronics and Instrumentation<br />
+                  Department of Electronics and Instrumentation<br />
                   Kongu Engineering College<br />
                   Perundurai, Erode - 638 060<br />
                 </p>
@@ -58,7 +58,7 @@ export const ContactSection = () => {
                   eareyes2026@gmail.com
                 </a>
                 <p className="text-sm text-muted-foreground mt-1">
-                  For general inquiries
+                  For general enquiries
                 </p>
               </div>
             </div>
