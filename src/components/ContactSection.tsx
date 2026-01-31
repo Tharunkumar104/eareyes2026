@@ -55,7 +55,7 @@ export const ContactSection = () => {
                   href="mailto:eareyes@kongu.edu"
                   className="text-sm text-primary hover:underline"
                 >
-                  eareyes2k26@kongu.edu
+                  eareyes2026@gmail.com
                 </a>
                 <p className="text-sm text-muted-foreground mt-1">
                   For general inquiries

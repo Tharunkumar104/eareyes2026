@@ -171,7 +171,7 @@ const events: Event[] = [
     coordinators: [
       { name: 'Prabhashini P', phone: '+91 93612 89677' },
     ],
-    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNp4uz1fie8V38JeqLNXkQ5mDBlaYUDkGzVkq12vUS_6UX6Q/viewform?usp=header',
+    registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe2iDEToAGSEPqqedqB-vieV2e3Vwxs0hEV9AHx5QyRaeOoDg/viewform?usp=sharing&ouid=110279443112939828214',
   }
 ];
 
