@@ -162,7 +162,6 @@ const events: Event[] = [
       'Participants answer movie and character-based questions two exciting rounds.',
       'Each team can participate as per event instructions.',
       'The event will be conducted two round',
-      'Sports attire recommended',
       'Round 1: Identify the movie name based on given clues.',
       'Round 2: Identify the characters using visual or textual hints.',
       'Use of unfair means or external help is not allowed.',
