@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { EventCard, EventModal, Event } from './EventCard';
@@ -61,7 +62,6 @@ const events: Event[] = [
     description: 'Test your troubleshooting skills by identifying and fixing errors in electronic circuits. Race against time to debug circuits and prove your practical expertise.',
     rules:[
       'A team should consist of a minimum of 2 members.',
-      'Formation of teams from interdisciplinary departments is not allowed.',
       'The competition consists of 2 rounds only, each with varying levels of difficulty.',
       'Certificates will be provided to all participants.',
       'Any form of malpractice will lead to immediate disqualification.',
@@ -142,7 +142,6 @@ const events: Event[] = [
     description: 'Team-based cognitive challenge focusing on brand recognition,observation skills and memory power.',
     rules: [
       'A team should consist of a minimum of 2 members. ',
-      'Formation of teams from interdisciplinary departments is not allowed. ',
       'The competition consists of 2 rounds only, each with varying levels of difficulty. ',
       'Certificates will be provided to all participants. ',
       'The jurys decisions are final. ',
@@ -159,9 +158,9 @@ const events: Event[] = [
     iconPath: cinebuzzIcon,
     description: 'Test your knowledge of movies and cinema in this fun non-technical quiz event.',
     rules: [
-      'Participants answer movie and character-based questions two exciting rounds.',
+      'Participants answer movie and character-based questions.',
       'Each team can participate as per event instructions.',
-      'The event will be conducted two round',
+      'The event will be conducted in two rounds',
       'Round 1: Identify the movie name based on given clues.',
       'Round 2: Identify the characters using visual or textual hints.',
       'Use of unfair means or external help is not allowed.',
