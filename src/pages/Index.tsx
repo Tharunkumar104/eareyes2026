@@ -3,6 +3,7 @@ import { Navbar } from '@/components/Navbar';
 import { HeroSection } from '@/components/HeroSection';
 import { EventsSection } from '@/components/EventsSection';
 import { ScheduleSection } from '@/components/ScheduleSection';
+import { WelcomePopup } from '@/components/WelcomePopup';
 //import { GallerySection } from '@/components/GallerySection';
 import { ContactSection } from '@/components/ContactSection';
 import { Footer } from '@/components/Footer';
@@ -58,6 +59,7 @@ const Index = () => {
         <HeroSection targetDate={EVENT_DATE} />
         <EventsSection />
         <ScheduleSection />
+        <WelcomePopup/>
         <ContactSection />
       </main>
 
