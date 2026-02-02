@@ -88,6 +88,9 @@ export const WelcomePopup = ({ isOpen, onClose, targetDate }: WelcomePopupProps)
                     <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
                       <span className="font-semibold">Shortlisting</span> for 24 Hours Hackathon will be done through the Ideathon.
                     </p>
+                    <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
+                      <span className="font-semibold">Participant must join in one Technical event and a participant can only join in three event.
+                    </p>
                   </div>
                 </div>
               </motion.div>
