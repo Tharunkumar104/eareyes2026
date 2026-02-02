@@ -98,6 +98,11 @@ export const WelcomePopup = ({ isOpen, onClose, targetDate }: WelcomePopupProps)
                         The best project will receive an internship opportunity at the EIE Centre of Excellence.
                       </span>
                     </p>
+                   <p className="text-sm mt-2 leading-relaxed">
+                      <span className="font-bold text-foreground">
+                        The Last date for registration is 15th of February.
+                      </span>
+                    </p>
                   </div>
                 </div>
               </motion.div>
