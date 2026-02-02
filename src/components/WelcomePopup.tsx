@@ -89,7 +89,14 @@ export const WelcomePopup = ({ isOpen, onClose, targetDate }: WelcomePopupProps)
                       <span className="font-semibold">Shortlisting</span> for 24 Hours Hackathon will be done through the Ideathon.
                     </p>
                     <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
-                      <span className="font-semibold">Participant must join in one Technical event and a participant can only join in three event.
+                      <span className="font-semibold">
+                        Participant must join in one Technical event and a participant can only join in three event.
+                      </span>
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
+                      <span className="font-semibold">
+                        The best project will receive an internship opportunity at the EIE Centre of Excellence.
+                      </span>
                     </p>
                   </div>
                 </div>
