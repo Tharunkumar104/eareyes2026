@@ -142,7 +142,7 @@ const events: Event[] = [
     description: 'Team-based cognitive challenge focusing on brand recognition,observation skills and memory power.',
     rules: [
       'A team should consist of a minimum of 2 members. ',
-      'The competition consists of 2 rounds only, each with varying levels of difficulty. '
+      'The competition consists of 2 rounds only, each with varying levels of difficulty. ',
       'The jurys decisions are final. ',
     ],
     coordinators: [
