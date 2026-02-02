@@ -107,7 +107,7 @@ const events: Event[] = [
       'Cash prizes will be awarded to the Top 3 teams in the Hackathon.',
       'Ideas will be evaluated based on: Innovation and originality,Problem relevance,Feasibility,Impact,Presentation clarity',
       'The decision of the judges and organizers will be final and binding.',
-      'Important dates: Ideathon - 17.02.2026,Hackathon - 27 , 28.02.2026.',
+      'Important dates: Ideathon - 17.02.2026,Hackathon - 27.02.2026 & 28.02.2026.',
     ],
     coordinators: [
       { name: 'Rishikeshwaran M', phone: '+91 97157 08810' },
@@ -142,8 +142,7 @@ const events: Event[] = [
     description: 'Team-based cognitive challenge focusing on brand recognition,observation skills and memory power.',
     rules: [
       'A team should consist of a minimum of 2 members. ',
-      'The competition consists of 2 rounds only, each with varying levels of difficulty. ',
-      'Certificates will be provided to all participants. ',
+      'The competition consists of 2 rounds only, each with varying levels of difficulty. '
       'The jurys decisions are final. ',
     ],
     coordinators: [
