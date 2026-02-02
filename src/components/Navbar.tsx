@@ -7,7 +7,6 @@ const navItems = [
   { name: 'Home', href: '#home' },
   { name: 'Events', href: '#events' },
   { name: 'Schedule', href: '#schedule' },
-  { name: 'Notice', href: '#WelcomePopup'},
   //{ name: 'Gallery', href: '#gallery' },
   { name: 'Contact', href: '#contact' },
 ];
