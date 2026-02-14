@@ -9,11 +9,11 @@ interface ScheduleItem {
 }
 
 const scheduleData: ScheduleItem[] = [
-  { time: '09:00 AM - 12:15 PM', event:'Ideathon', venue:'MBA Seminar Hall', type:'ceremony'},
-  { time: '09:00 AM - 11:00 AM', event: 'TechNova', venue: 'MBA Seminar Hall', type: 'main' },
-  { time: '09:00 AM - 11:00 AM', event: 'Innoventure', venue: 'MBA Seminar Hall', type: 'main' },
-  { time: '10:50 AM - 12:15 PM', event: 'Fix and Flex', venue: 'MBA Seminar Hall', type: 'main' },
-  { time: '10:50 AM - 12:15 PM', event: 'CodeCraft', venue: 'MBA Seminar Hall', type: 'main' },
+  { time: '09:00 AM - 12:15 PM', event:'Ideathon', venue:'Panel-1: SES 216, Panel-2: SES 217', type:'ceremony'},
+  { time: '09:00 AM - 11:00 AM', event: 'TechNova', venue: 'Panel-1: EIE Seminar Hall, Panel-2: EEE Seminar Hall, Panel-3: COE(EIE First Floor)', type: 'main' },
+  { time: '09:00 AM - 11:00 AM', event: 'Innoventure', venue: 'Pannel-1: M&I Lab(EIE 2nd floor, Panel-2: S&T Lab(EIE 3rd Floor)', type: 'main' },
+  { time: '10:50 AM - 12:15 PM', event: 'Fix and Flex', venue: 'MPMC Lab (EIE 2nd Floor)', type: 'main' },
+  { time: '10:50 AM - 12:15 PM', event: 'CodeCraft', venue: 'EIE CC (1st Floor)', type: 'main' },
   { time: '12:15 PM - 01:15 PM', event: 'Lunch Break', type: 'break' },
   { time: '01:20 PM - 02:00 PM', event: 'Pick & Pitch', venue: 'MBA Seminar Hall', type: 'main' },
   { time: '02:05 PM - 02:45 PM', event: 'Brain Trace', venue: 'MBA Seminar Hall', type: 'main' },
